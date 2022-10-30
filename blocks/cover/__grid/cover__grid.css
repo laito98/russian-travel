@@ -28,7 +28,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover__grid{
     width: 1024px;
-    grid-template-rows: 163px 152px 66px 163px ;
+    grid-template-rows: 163px 152px 66px 163px;
     row-gap: 2rem;
     }
  }
