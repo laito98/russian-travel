@@ -1,0 +1,21 @@
+.footer__container{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 18px;
+  width: 1184px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container{
+    flex-direction: column;
+    height: 310px;
+    max-width: 186px;
+    margin-left: 1rem;
+    align-items: flex-start;
+  }
+}
+

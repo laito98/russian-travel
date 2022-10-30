@@ -1,0 +1,7 @@
+.lead__image_map{
+  z-index: 2;
+  width: 95%;
+  position: absolute;
+  top: 15%;
+  left: 2%;
+}
