@@ -1,15 +1,7 @@
-
-@media screen and (min-width: 1280px){
   .lead__image{
     object-fit: cover;
-    height: 615px;
-    width: 984px;
   }
-}
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
- .lead__image{
-  object-fit: cover;
-  width: 928px;
- }
-}
+
+
+

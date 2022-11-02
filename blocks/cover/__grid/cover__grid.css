@@ -1,9 +1,6 @@
 .cover__grid{
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 213px 152px 66px 213px;
-  max-width: 1184px;
-  row-gap: 2rem;
+  width: max-content;
   justify-items: center;
   margin: auto;
 }
@@ -12,8 +9,6 @@
 .cover__grid{
   grid-template-rows: 17px 70px 48px 17px;
   row-gap: 1rem;
-  max-width: 320px;
-  max-height: 200px;
 } 
 }
 
@@ -21,14 +16,21 @@
 .cover__grid{
   grid-template-rows: 83px 152px 62px 83px;
   row-gap: 2rem;
-  max-width: 768px;
+  height: 480px;
+  }
 }
- }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover__grid{
-    width: 1024px;
     grid-template-rows: 163px 152px 66px 163px;
     row-gap: 2rem;
     }
- }
+}
+
+@media screen and (min-width: 1280px){
+  .cover__grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 213px 152px 66px 213px;
+    row-gap: 2rem;
+  }
+}

@@ -12,12 +12,6 @@
   margin-bottom: 0;
 }
 
-@media screen  and (max-width: 1024px){
-  .place__paragraph{
-    font-size: 1rem;
-  }
-}
-
 @media screen and (max-width: 768px){
   .place__paragraph{
     margin: 0 1rem;
@@ -28,4 +22,10 @@
     .place__paragraph:last-of-type{
       margin-bottom: 0;
     }
+}
+
+@media screen  and (max-width: 1024px){
+  .place__paragraph{
+    font-size: 1rem;
+  }
 }

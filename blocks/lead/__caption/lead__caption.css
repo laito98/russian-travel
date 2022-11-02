@@ -8,27 +8,20 @@
   letter-spacing: 1.5px;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+@media screen and (max-width: 768px){
   .lead__caption{
-    font-size: 14px;
-    line-height: 140%;
-    margin-left: 0;
+     margin-left: 1rem;
     }
-  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .lead__caption{
-    font-size: 10px;
-    line-height: 140%;
     margin-left: 2rem;
     }
   }
 
-
-@media screen and (max-width: 768px){
-.lead__caption{
-  font-size: 10px;
-  line-height: 140%;
-  margin-left: 1rem;
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  .lead__caption{
+    margin-left: 0;
+    }
   }
-}
