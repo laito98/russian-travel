@@ -7,6 +7,7 @@
 
 @media screen and (max-width: 768px) {
 .cover__grid{
+  grid-template-columns: 320px;
   grid-template-rows: 17px 70px 48px 17px;
   row-gap: 1rem;
 } 
@@ -14,14 +15,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 .cover__grid{
+  grid-template-columns: 768px;
   grid-template-rows: 83px 152px 62px 83px;
   row-gap: 2rem;
-  height: 480px;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .cover__grid{
+    grid-template-columns: 1024px;
     grid-template-rows: 163px 152px 66px 163px;
     row-gap: 2rem;
     }
@@ -29,7 +31,7 @@
 
 @media screen and (min-width: 1280px){
   .cover__grid{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1184px;
     grid-template-rows: 213px 152px 66px 213px;
     row-gap: 2rem;
   }

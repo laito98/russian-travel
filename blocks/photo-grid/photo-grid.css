@@ -1,5 +1,7 @@
-.photo-grid{
-  padding-top: 5.75rem;
+@media screen and (max-width: 768px){
+  .photo-grid{
+    padding-top: 4rem;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -8,8 +10,9 @@
   }
 }
 
-@media screen and (max-width: 768px){
+
+@media screen and (min-width: 1280px){
   .photo-grid{
-    padding-top: 4rem;
+    padding-top: 5.75rem;
   }
 }

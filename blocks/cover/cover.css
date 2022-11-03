@@ -7,3 +7,15 @@
      padding-top: 4rem;
    }
  }
+
+ @media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover{
+    height: 640px;
+  }
+ }
+
+ @media screen and (min-width: 1280px) {
+  .cover{
+    height: 740px;
+  }
+ }

@@ -18,6 +18,7 @@
   .place__image{
    max-width: 340px;
    max-height: 340px;
+   grid-row: 2/4;
   }
 }
 

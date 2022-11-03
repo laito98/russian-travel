@@ -1,20 +1,25 @@
 .footer__container{
   display: flex;
-  margin: auto;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  height: 18px;
-  width: 90%;
 }
 
 @media screen and (max-width: 768px) {
   .footer__container{
     flex-direction: column;
     height: 310px;
-    max-width: 186px;
+    width: 186px;
     margin-left: 1rem;
     align-items: flex-start;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer__container{
+    flex-direction: row;
+    align-items: center;
+    height: 18px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+}

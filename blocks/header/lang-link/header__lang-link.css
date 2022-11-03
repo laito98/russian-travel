@@ -1,21 +1,13 @@
 .header__lang-link{
-  font-family: 'Inter';
   text-decoration: none;
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 117%;
   color: white;
   margin: 0;
-  margin-right: 18px;
   transition: 0.3s;
 }
 
 .header__lang-link:hover{
   opacity: 0.8;
-}
-
-.header__lang-link:last-of-type{
-  margin-right: 0;
 }
 
 .header__lang-link:active{
@@ -32,4 +24,15 @@
     margin-right: 1rem;
   }
 }
+
+@media screen and (min-width: 768px){
+  .header__lang-link{
+    font-size: 1.5rem;
+    line-height: 117%;
+    margin-right: 18px;
+  }
   
+  .header__lang-link:last-of-type{
+    margin-right: 0;
+  }
+}

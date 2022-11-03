@@ -1,7 +1,5 @@
 .place__title{
   grid-column: 1/2;
-  font-size: 4.5rem;
-  line-height: 106%;
   font-weight: 900;
   margin: 0;
   align-self: end;
@@ -21,4 +19,10 @@
     line-height: 110%;
   }
 }
- 
+
+@media screen and (min-width: 1024px) {
+  .place__title{
+    font-size: 4.5rem;
+    line-height: 106%;
+  }
+}

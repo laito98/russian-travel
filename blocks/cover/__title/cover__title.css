@@ -4,11 +4,7 @@
   grid-row: 2/3;
   align-self: bottom;
   z-index: 2;
-  font-size: 72px;
-  line-height: 106%;
-  font-weight: 900;
   text-align: center;
-  width: 560px;
 }
 
 
@@ -16,11 +12,19 @@
   .cover__title{
     font-size: 2rem;
     line-height: 109%;
-    max-width: 288px;
+    width: 288px;
     margin: 0;
     align-self: end;
   }
-  
 }
 
+@media screen and (min-width: 768px) {
+  .cover__title{
+    margin: 0;
+    width: 560px;
+    font-size: 72px;
+    line-height: 76px;
+    font-weight: 900;
+  }
+}
 
