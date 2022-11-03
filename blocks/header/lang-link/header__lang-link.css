@@ -18,10 +18,11 @@
   .header__lang-link{ 
   font-size: 18px;
   line-height: 20px;
+  margin-right: 1rem;
   }
   
   .header__lang-link:last-of-type{
-    margin-right: 1rem;
+    margin-right: 0;
   }
 }
 
@@ -31,7 +32,7 @@
     line-height: 117%;
     margin-right: 18px;
   }
-  
+
   .header__lang-link:last-of-type{
     margin-right: 0;
   }
