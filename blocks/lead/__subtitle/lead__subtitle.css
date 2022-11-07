@@ -11,7 +11,7 @@
   font-size: 1rem;
   line-height: 1.25em;
   margin-top: 1rem;
-  width: 288px;
+  max-width: 288px;
 }
 }
 
@@ -20,7 +20,7 @@
     font-size: 30px;
     line-height: 1.2;
     margin-top: 2rem;
-    width: 640px;
+    max-width: 640px;
   }
 }
 

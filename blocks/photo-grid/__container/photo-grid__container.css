@@ -1,7 +1,6 @@
 .photo-grid__container{
   margin: 0 auto;
   display: grid;
-
 }
 
 @media screen and (max-width: 768px){

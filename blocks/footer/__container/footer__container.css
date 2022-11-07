@@ -6,7 +6,6 @@
 @media screen and (max-width: 768px) {
   .footer__container{
     flex-direction: column;
-    height: 310px;
     width: 288px;
     margin-left: 1rem;
     align-items: flex-start;

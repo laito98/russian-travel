@@ -1,3 +1,11 @@
+.cover{
+  margin: auto;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 768px){
   .cover{
     padding-top: 66px;
@@ -16,14 +24,9 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-  .cover {
-    height: 640px;
-  }
-}
 
 @media screen and (min-width: 1280px) {
   .cover {
-    height: 740px;
+    width: 1184px;
   }
 }
