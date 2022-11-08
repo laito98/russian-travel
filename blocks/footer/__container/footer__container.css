@@ -17,7 +17,6 @@
   .footer__container{
     flex-direction: row;
     align-items: center;
-    height: 18px;
     margin: 0 auto;
   }
 }
