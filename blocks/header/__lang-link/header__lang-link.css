@@ -10,9 +10,7 @@
   opacity: 0.8;
 }
 
-.header__lang-link_active{
-  text-decoration: underline;
-}
+
 
 .header__lang-link:last-of-type{
   margin-right: 0;
