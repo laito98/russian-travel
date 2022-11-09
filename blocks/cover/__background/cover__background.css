@@ -1,4 +1,4 @@
-.cover__background{
+.cover__background {
   display: grid;
   margin: 0 auto;
   min-height: max-content;
@@ -12,39 +12,39 @@
   z-index: 2;
 }
 
-.cover__background:hover .cover__overlay{
+.cover__background:hover .cover__overlay {
   opacity: 0.8;
 }
 
 
 @media screen and (max-width: 768px) {
-.cover__background{
-grid-template-columns: 320px;
-grid-template-rows: 17px 70px minmax(48px, auto) 17px;
-row-gap: 1rem;
-} 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-.cover__background{
-grid-template-columns: 768px;
-grid-template-rows: 83px 152px minmax(62px, auto) 83px;
-row-gap: 2rem;
-}
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-.cover__background{
-  grid-template-columns: 1024px;
-  grid-template-rows: 163px 152px minmax(66px, auto) 163px;
-  row-gap: 2rem;
+  .cover__background {
+    grid-template-columns: 320px;
+    grid-template-rows: 17px 70px minmax(48px, auto) 17px;
+    row-gap: 1rem;
   }
 }
 
-@media screen and (min-width: 1280px){
-.cover__background{
-  grid-template-columns: 1184px;
-  grid-template-rows: 213px 152px minmax(66px, auto) 213px;
-  row-gap: 2rem;
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cover__background {
+    grid-template-columns: 768px;
+    grid-template-rows: 83px 152px minmax(62px, auto) 83px;
+    row-gap: 2rem;
+  }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover__background {
+    grid-template-columns: 1024px;
+    grid-template-rows: 163px 152px minmax(66px, auto) 163px;
+    row-gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    grid-template-columns: 1184px;
+    grid-template-rows: 213px 152px minmax(66px, auto) 213px;
+    row-gap: 2rem;
+  }
 }
